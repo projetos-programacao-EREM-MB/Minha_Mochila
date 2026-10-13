@@ -1,0 +1,571 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Biblioteca digital | Minha Mochila</title>
+    <link rel="stylesheet" href="estilo-livro.css" />
+  </head>
+  <body>
+    <main class="pagina-biblioteca">
+      <header class="cabecalho-biblioteca">
+        <p class="sobretitulo">MINHA MOCHILA · ACERVO</p>
+        <h1>Biblioteca digital</h1>
+        <p>
+          Encontre um título, consulte a disponibilidade física e acesse o
+          acervo digital quando houver um link específico.
+        </p>
+        <p class="nota-acervo">
+          Os status físicos são demonstrativos neste protótipo. Confirme a
+          disponibilidade com a biblioteca da escola.
+        </p>
+      </header>
+      <p id="aviso-busca-vazia" class="aviso-vazio" hidden>
+        Nenhum livro encontrado.
+      </p>
+      <div class="container-livros">
+        <article class="card-livro" data-titulo="Capitães de areia">
+          <div
+            class="capa-livro"
+            style="
+              background-image: url(&quot;https://static-meclivros.mec.gov.br/covers-webp/9788563397386.jpg?w=800&quot;);
+            "
+            role="img"
+            aria-label="Capa de Capitães de areia"
+          ></div>
+          <div class="info-livro">
+            <div>
+              <h2 class="titulo-livro">Capitães de areia</h2>
+              <p class="desc-livro">
+                Romance de Jorge Amado que retrata a vida de meninos em situação
+                de rua em Salvador.
+              </p>
+              <div class="linha-tags">
+                <span class="tag tag-genero">Literatura</span
+                ><a
+                  href="https://meclivros.mec.gov.br/search/view-work?id=1001731"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="tag tag-mec"
+                  >Abrir no MEC Livros ↗</a
+                >
+              </div>
+            </div>
+            <div class="acoes-livro">
+              <span class="tag status-consultar"
+                >Consultar biblioteca física</span
+              ><button
+                type="button"
+                class="btn-salvar-livro"
+                data-title="Capitães de areia"
+                data-description="Romance de Jorge Amado que retrata a vida de meninos em situação de rua em Salvador."
+                data-url="https://meclivros.mec.gov.br/search/view-work?id=1001731"
+              >
+                ＋ Salvar na mochila
+              </button>
+            </div>
+          </div>
+        </article>
+        <article class="card-livro" data-titulo="A volta ao mundo em 80 dias">
+          <div
+            class="capa-livro"
+            style="
+              background-image: url(&quot;https://static-meclivros.mec.gov.br/covers-webp/9788525423498.jpg?w=800&quot;);
+            "
+            role="img"
+            aria-label="Capa de A volta ao mundo em 80 dias"
+          ></div>
+          <div class="info-livro">
+            <div>
+              <h2 class="titulo-livro">A volta ao mundo em 80 dias</h2>
+              <p class="desc-livro">
+                Aventura de Júlio Verne sobre uma viagem ao redor do mundo
+                contra o relógio.
+              </p>
+              <div class="linha-tags">
+                <span class="tag tag-genero">Ficção científica</span
+                ><a
+                  href="https://meclivros.mec.gov.br/search/view-work?id=300015892"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="tag tag-mec"
+                  >Abrir no MEC Livros ↗</a
+                >
+              </div>
+            </div>
+            <div class="acoes-livro">
+              <span class="tag status-consultar"
+                >Consultar biblioteca física</span
+              ><button
+                type="button"
+                class="btn-salvar-livro"
+                data-title="A volta ao mundo em 80 dias"
+                data-description="Aventura de Júlio Verne sobre uma viagem ao redor do mundo contra o relógio."
+                data-url="https://meclivros.mec.gov.br/search/view-work?id=300015892"
+              >
+                ＋ Salvar na mochila
+              </button>
+            </div>
+          </div>
+        </article>
+        <article class="card-livro" data-titulo="A cabeça do santo">
+          <div
+            class="capa-livro"
+            style="
+              background-image: url(&quot;https://static-meclivros.mec.gov.br/covers-webp/9788580869354.jpg?w=600&quot;);
+            "
+            role="img"
+            aria-label="Capa de A cabeça do santo"
+          ></div>
+          <div class="info-livro">
+            <div>
+              <h2 class="titulo-livro">A cabeça do santo</h2>
+              <p class="desc-livro">
+                Romance de Socorro Acioli que mistura realismo mágico, fé e
+                relações humanas.
+              </p>
+              <div class="linha-tags">
+                <span class="tag tag-genero">Realismo mágico</span
+                ><a
+                  href="https://meclivros.mec.gov.br/search/view-work?id=1001851"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="tag tag-mec"
+                  >Abrir no MEC Livros ↗</a
+                >
+              </div>
+            </div>
+            <div class="acoes-livro">
+              <span class="tag status-consultar"
+                >Consultar biblioteca física</span
+              ><button
+                type="button"
+                class="btn-salvar-livro"
+                data-title="A cabeça do santo"
+                data-description="Romance de Socorro Acioli que mistura realismo mágico, fé e relações humanas."
+                data-url="https://meclivros.mec.gov.br/search/view-work?id=1001851"
+              >
+                ＋ Salvar na mochila
+              </button>
+            </div>
+          </div>
+        </article>
+        <article class="card-livro" data-titulo="Olga">
+          <div
+            class="capa-livro"
+            style="
+              background-image: url(&quot;https://static-meclivros.mec.gov.br/covers-webp/9786557826676.jpg?w=800&quot;);
+            "
+            role="img"
+            aria-label="Capa de Olga"
+          ></div>
+          <div class="info-livro">
+            <div>
+              <h2 class="titulo-livro">Olga</h2>
+              <p class="desc-livro">
+                Biografia de Olga Benário, militante política cuja trajetória se
+                cruza com a história do Brasil.
+              </p>
+              <div class="linha-tags">
+                <span class="tag tag-genero">Biografia</span
+                ><a
+                  href="https://meclivros.mec.gov.br/search/view-work?id=1002835"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="tag tag-mec"
+                  >Abrir no MEC Livros ↗</a
+                >
+              </div>
+            </div>
+            <div class="acoes-livro">
+              <span class="tag status-consultar"
+                >Consultar biblioteca física</span
+              ><button
+                type="button"
+                class="btn-salvar-livro"
+                data-title="Olga"
+                data-description="Biografia de Olga Benário, militante política cuja trajetória se cruza com a história do Brasil."
+                data-url="https://meclivros.mec.gov.br/search/view-work?id=1002835"
+              >
+                ＋ Salvar na mochila
+              </button>
+            </div>
+          </div>
+        </article>
+        <article class="card-livro" data-titulo="Dom Casmurro">
+          <div
+            class="capa-livro"
+            style="
+              background-image: url(&quot;https://static-meclivros.mec.gov.br/covers-webp/9788564823297.jpg?w=800&quot;);
+            "
+            role="img"
+            aria-label="Capa de Dom Casmurro"
+          ></div>
+          <div class="info-livro">
+            <div>
+              <h2 class="titulo-livro">Dom Casmurro</h2>
+              <p class="desc-livro">
+                Clássico de Machado de Assis narrado por Bentinho, marcado por
+                memória e dúvida.
+              </p>
+              <div class="linha-tags">
+                <span class="tag tag-genero">Romance</span
+                ><a
+                  href="https://meclivros.mec.gov.br/search/view-work?id=300007659"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="tag tag-mec"
+                  >Abrir no MEC Livros ↗</a
+                >
+              </div>
+            </div>
+            <div class="acoes-livro">
+              <span class="tag status-consultar"
+                >Consultar biblioteca física</span
+              ><button
+                type="button"
+                class="btn-salvar-livro"
+                data-title="Dom Casmurro"
+                data-description="Clássico de Machado de Assis narrado por Bentinho, marcado por memória e dúvida."
+                data-url="https://meclivros.mec.gov.br/search/view-work?id=300007659"
+              >
+                ＋ Salvar na mochila
+              </button>
+            </div>
+          </div>
+        </article>
+        <article class="card-livro" data-titulo="A Era das Revoluções">
+          <div
+            class="capa-livro"
+            style="
+              background-image: url(&quot;https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn0mvN9qEtzTvt4C4Z2ljBZ1k3ml3T8aZiuSJ6_-0UoA&amp;s=10&quot;);
+            "
+            role="img"
+            aria-label="Capa de A Era das Revoluções"
+          ></div>
+          <div class="info-livro">
+            <div>
+              <h2 class="titulo-livro">A Era das Revoluções</h2>
+              <p class="desc-livro">
+                Obra de Eric Hobsbawm sobre transformações políticas e
+                econômicas entre 1789 e 1848.
+              </p>
+              <div class="linha-tags">
+                <span class="tag tag-genero">História</span
+                ><span
+                  class="tag tag-sem-link"
+                  title="Ainda não há um link específico confirmado"
+                  >Link de leitura não confirmado</span
+                >
+              </div>
+            </div>
+            <div class="acoes-livro">
+              <span class="tag status-consultar"
+                >Consultar biblioteca física</span
+              ><button
+                type="button"
+                class="btn-salvar-livro"
+                data-title="A Era das Revoluções"
+                data-description="Obra de Eric Hobsbawm sobre transformações políticas e econômicas entre 1789 e 1848."
+                data-url=""
+              >
+                ＋ Salvar na mochila
+              </button>
+            </div>
+          </div>
+        </article>
+        <article class="card-livro" data-titulo="1984 George Orwell">
+          <div
+            class="capa-livro"
+            style="
+              background-image: url(&quot;https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW5aUVNZcyVmuoUp7QjMI_PWtG8bdhcUEMHdy5N3k6Kg&amp;s=10&quot;);
+            "
+            role="img"
+            aria-label="Capa de 1984 George Orwell"
+          ></div>
+          <div class="info-livro">
+            <div>
+              <h2 class="titulo-livro">1984 George Orwell</h2>
+              <p class="desc-livro">
+                Romance distópico de George Orwell sobre vigilância, poder e
+                controle da informação.
+              </p>
+              <div class="linha-tags">
+                <span class="tag tag-genero">Literatura</span
+                ><a
+                  href="https://meclivros.mec.gov.br/search/view-work?id=300017679"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="tag tag-mec"
+                  >Abrir no MEC Livros ↗</a
+                >
+              </div>
+            </div>
+            <div class="acoes-livro">
+              <span class="tag status-consultar"
+                >Consultar biblioteca física</span
+              ><button
+                type="button"
+                class="btn-salvar-livro"
+                data-title="1984 George Orwell"
+                data-description="Romance distópico de George Orwell sobre vigilância, poder e controle da informação."
+                data-url="https://meclivros.mec.gov.br/search/view-work?id=300017679"
+              >
+                ＋ Salvar na mochila
+              </button>
+            </div>
+          </div>
+        </article>
+        <article class="card-livro" data-titulo="Vinte mil léguas submarinas">
+          <div
+            class="capa-livro"
+            style="
+              background-image: url(&quot;https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR58sqnqRillxM29RQdJoKjBlan9ub-SWPm6Lq61whoeg&amp;s=10&quot;);
+            "
+            role="img"
+            aria-label="Capa de Vinte mil léguas submarinas"
+          ></div>
+          <div class="info-livro">
+            <div>
+              <h2 class="titulo-livro">Vinte mil léguas submarinas</h2>
+              <p class="desc-livro">
+                Aventura de Júlio Verne que acompanha uma expedição submarina a
+                bordo do Náutilus.
+              </p>
+              <div class="linha-tags">
+                <span class="tag tag-genero">Ficção científica</span
+                ><span
+                  class="tag tag-sem-link"
+                  title="Ainda não há um link específico confirmado"
+                  >Link de leitura não confirmado</span
+                >
+              </div>
+            </div>
+            <div class="acoes-livro">
+              <span class="tag status-consultar"
+                >Consultar biblioteca física</span
+              ><button
+                type="button"
+                class="btn-salvar-livro"
+                data-title="Vinte mil léguas submarinas"
+                data-description="Aventura de Júlio Verne que acompanha uma expedição submarina a bordo do Náutilus."
+                data-url=""
+              >
+                ＋ Salvar na mochila
+              </button>
+            </div>
+          </div>
+        </article>
+        <article class="card-livro" data-titulo="O pior dia de todos">
+          <div
+            class="capa-livro"
+            style="
+              background-image: url(&quot;https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCC9yJOK6--BCsyl6Y8ya_6JbTMTah0H5aJ-jA74BkGQ&amp;s=10&quot;);
+            "
+            role="img"
+            aria-label="Capa de O pior dia de todos"
+          ></div>
+          <div class="info-livro">
+            <div>
+              <h2 class="titulo-livro">O pior dia de todos</h2>
+              <p class="desc-livro">
+                Título mantido do acervo original; confirme autor, sinopse e
+                edição com a biblioteca.
+              </p>
+              <div class="linha-tags">
+                <span class="tag tag-genero">Romance</span
+                ><span
+                  class="tag tag-sem-link"
+                  title="Ainda não há um link específico confirmado"
+                  >Link de leitura não confirmado</span
+                >
+              </div>
+            </div>
+            <div class="acoes-livro">
+              <span class="tag status-consultar"
+                >Consultar biblioteca física</span
+              ><button
+                type="button"
+                class="btn-salvar-livro"
+                data-title="O pior dia de todos"
+                data-description="Título mantido do acervo original; confirme autor, sinopse e edição com a biblioteca."
+                data-url=""
+              >
+                ＋ Salvar na mochila
+              </button>
+            </div>
+          </div>
+        </article>
+        <article class="card-livro" data-titulo="O médico e o monstro">
+          <div
+            class="capa-livro"
+            style="
+              background-image: url(&quot;https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCJeRs8YlKObL8-KjmAAGHzLciUQRapR_zhjgny-_EiQ&amp;s=10&quot;);
+            "
+            role="img"
+            aria-label="Capa de O médico e o monstro"
+          ></div>
+          <div class="info-livro">
+            <div>
+              <h2 class="titulo-livro">O médico e o monstro</h2>
+              <p class="desc-livro">
+                Novela de Robert Louis Stevenson sobre a dualidade humana e os
+                limites da ciência.
+              </p>
+              <div class="linha-tags">
+                <span class="tag tag-genero">Romance</span
+                ><a
+                  href="https://meclivros.mec.gov.br/search/view-work?id=1000137"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="tag tag-mec"
+                  >Abrir no MEC Livros ↗</a
+                >
+              </div>
+            </div>
+            <div class="acoes-livro">
+              <span class="tag status-consultar"
+                >Consultar biblioteca física</span
+              ><button
+                type="button"
+                class="btn-salvar-livro"
+                data-title="O médico e o monstro"
+                data-description="Novela de Robert Louis Stevenson sobre a dualidade humana e os limites da ciência."
+                data-url="https://meclivros.mec.gov.br/search/view-work?id=1000137"
+              >
+                ＋ Salvar na mochila
+              </button>
+            </div>
+          </div>
+        </article>
+        <article class="card-livro" data-titulo="O bom de briga">
+          <div
+            class="capa-livro"
+            style="
+              background-image: url(&quot;https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScGi3Ca9H3aFcN8Xj2ZkG2rJ2V9C9Bjb_VNK6HmjvnOA&amp;s=10&quot;);
+            "
+            role="img"
+            aria-label="Capa de O bom de briga"
+          ></div>
+          <div class="info-livro">
+            <div>
+              <h2 class="titulo-livro">O bom de briga</h2>
+              <p class="desc-livro">
+                Título mantido do acervo original; confirme autor, sinopse e
+                edição com a biblioteca.
+              </p>
+              <div class="linha-tags">
+                <span class="tag tag-genero">Literatura</span
+                ><span
+                  class="tag tag-sem-link"
+                  title="Ainda não há um link específico confirmado"
+                  >Link de leitura não confirmado</span
+                >
+              </div>
+            </div>
+            <div class="acoes-livro">
+              <span class="tag status-consultar"
+                >Consultar biblioteca física</span
+              ><button
+                type="button"
+                class="btn-salvar-livro"
+                data-title="O bom de briga"
+                data-description="Título mantido do acervo original; confirme autor, sinopse e edição com a biblioteca."
+                data-url=""
+              >
+                ＋ Salvar na mochila
+              </button>
+            </div>
+          </div>
+        </article>
+        <article class="card-livro" data-titulo="O azarão">
+          <div
+            class="capa-livro"
+            style="
+              background-image: url(&quot;https://m.media-amazon.com/images/I/71ne80xv-iL._AC_UF1000,1000_QL80_.jpg&quot;);
+            "
+            role="img"
+            aria-label="Capa de O azarão"
+          ></div>
+          <div class="info-livro">
+            <div>
+              <h2 class="titulo-livro">O azarão</h2>
+              <p class="desc-livro">
+                Título mantido do acervo original; confirme autor, sinopse e
+                edição com a biblioteca.
+              </p>
+              <div class="linha-tags">
+                <span class="tag tag-genero">Literatura infantil</span
+                ><span
+                  class="tag tag-sem-link"
+                  title="Ainda não há um link específico confirmado"
+                  >Link de leitura não confirmado</span
+                >
+              </div>
+            </div>
+            <div class="acoes-livro">
+              <span class="tag status-consultar"
+                >Consultar biblioteca física</span
+              ><button
+                type="button"
+                class="btn-salvar-livro"
+                data-title="O azarão"
+                data-description="Título mantido do acervo original; confirme autor, sinopse e edição com a biblioteca."
+                data-url=""
+              >
+                ＋ Salvar na mochila
+              </button>
+            </div>
+          </div>
+        </article>
+      </div>
+      <p class="rodape-biblioteca">
+        Dica: use a busca no topo do site. Os livros salvos aparecem na seção
+        “Minha mochila” neste mesmo navegador.
+      </p>
+    </main>
+    <script>
+      document.querySelectorAll(".btn-salvar-livro").forEach((button) =>
+        button.addEventListener("click", () => {
+          const title = button.dataset.title;
+          let items = [];
+          try {
+            items = JSON.parse(localStorage.getItem("banco_mochila") || "[]");
+          } catch (e) {
+            items = [];
+          }
+          if (
+            items.some(
+              (item) => item.tipoMaterial === "livro" && item.titulo === title,
+            )
+          ) {
+            button.textContent = "✓ Já está na mochila";
+            button.disabled = true;
+            return;
+          }
+          items.push({
+            id:
+              "livro-" +
+              Date.now() +
+              "-" +
+              Math.random().toString(16).slice(2, 7),
+            titulo: title,
+            descricao: button.dataset.description,
+            tipoMaterial: "livro",
+            url: button.dataset.url || null,
+            origem: "biblioteca",
+          });
+          try {
+            localStorage.setItem("banco_mochila", JSON.stringify(items));
+            button.textContent = "✓ Salvo na mochila";
+            button.disabled = true;
+          } catch (e) {
+            alert(
+              "Não foi possível salvar. Abra o site por um servidor web e tente novamente.",
+            );
+          }
+        }),
+      );
+    </script>
+  </body>
+</html>
